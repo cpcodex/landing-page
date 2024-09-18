@@ -6,7 +6,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* Head Styling*/
+/* Head Tab*/
 .body-container {
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ a:hover {
   color: cadetblue;
 }
 
-/*Header Hero*/
+/*Header Hero Tab*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -101,4 +101,94 @@ a:hover {
   color: #fff;
 }
 
-/*Information*/
+/*Information Tab*/
+.information {
+  text-align: center;
+}
+
+.information h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.info-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.info-box-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+figcaption {
+  text-align: center;
+  word-wrap: break-word;
+  color: #4872b1;
+}
+
+/*Quote Tab*/
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfcfcf;
+  margin-top: 25px;
+}
+
+.quote-text {
+  font-size: 34px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937;
+}
+
+/*Call To Action Tab*/
+.CTA {
+  padding: 25px 15px;
+  border-radius: 8px;
+  text-align: left;
+  background-color: #3882f6;
+  color: #fff;
+  margin: 60px 80px;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cta-text {
+  flex: 1;
+}
+
+.cta-text h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.cta-text p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.cta-btn {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 12px 20px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.3s;
+  border-radius: 6px;
+}
+
+.cta-btn:hover {
+  background-color: #2f4f7f;
+}
