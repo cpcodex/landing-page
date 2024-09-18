@@ -12,7 +12,7 @@ body {
   flex-direction: column;
 }
 
-.header-box {
+.head-box {
   background-color: #1f2937;
   padding: 10px 120px;
 }
@@ -60,3 +60,45 @@ a:hover {
   flex: 1 1 50%;
   flex-wrap: wrap;
 }
+
+.content h2 {
+  margin: 0;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.content p {
+  margin: 0;
+  font-size: 18px;
+  color: #99bafc;
+}
+
+.content button {
+  background-color: #0c3d8b;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-top: 12px;
+}
+
+.content button:hover {
+  background-color: #4872b1;
+}
+
+.image-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1 1 50%;
+  height: 200px;
+  background-color: #808080;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/*Information*/
