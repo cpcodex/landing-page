@@ -63,9 +63,9 @@ a:hover {
 
 .content h2 {
   margin: 0;
-  font-size: 48px;
+  font-size: 42px;
   color: #f9faf8;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .content p {
@@ -75,9 +75,9 @@ a:hover {
 }
 
 .content button {
-  background-color: #0c3d8b;
+  background-color: #3882f6;
   color: #fff;
-  font-size: 17px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
   border-radius: 6px;
@@ -126,10 +126,17 @@ a:hover {
   width: 250px;
 }
 
-figcaption {
+.info-box {
+  width: 90%;
+  height: 150px;
+  border-radius: 8px;
+  border: 2px solid #3882f6;
+  margin-bottom: 10px;
+}
+
+.info-text {
   text-align: center;
   word-wrap: break-word;
-  color: #4872b1;
 }
 
 /*Quote Tab*/
@@ -191,4 +198,19 @@ figcaption {
 
 .cta-btn:hover {
   background-color: #2f4f7f;
+}
+
+/*Footer*/
+.footer {
+  height: 42px;
+  background-color: #2f4f7f;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
