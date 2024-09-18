@@ -6,6 +6,29 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head,
+.content {
+  background-color: #1f2937;
+  padding: 10px 120px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 0;
+}
+
 ul {
   display: flex;
   margin: 0;
