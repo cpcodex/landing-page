@@ -6,13 +6,13 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* Head Styling*/
 .body-container {
   display: flex;
   flex-direction: column;
 }
 
-.head,
-.content {
+.header-box {
   background-color: #1f2937;
   padding: 10px 120px;
 }
@@ -33,6 +33,30 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-  list-style: 0;
+  list-style: none;
   gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #e5e7eb;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+/*Header Hero*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  gap: 30px;
+}
+
+.content {
+  flex: 1 1 50%;
+  flex-wrap: wrap;
 }
